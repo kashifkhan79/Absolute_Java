@@ -73,5 +73,36 @@ public class Money {
     private static int calculateCentsFromCentsAfterSubtraction(int totalCentsForMoney1, int totalCentsForMoney2) {
         return (totalCentsForMoney1 - totalCentsForMoney2) % 100;
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 71 * hash + this.dollars;
+        hash = 71 * hash + this.cents;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Money other = (Money) obj;
+        if (this.dollars != other.dollars) {
+            return false;
+        }
+        if (this.cents != other.cents) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "Money{" + "dollars=" + dollars + ", cents=" + cents + '}';
+    }
     
 }

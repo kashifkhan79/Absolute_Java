@@ -45,14 +45,14 @@ public class AlternateMoney {
         return new AlternateMoney(calculateDollarsFromCentsAfterAddition(calculateTotalCentsForMoney(money1), calculateTotalCentsForMoney(money2)),
                 calculateCentsFromCentsAfterAddition(calculateTotalCentsForMoney(money1), calculateTotalCentsForMoney(money2)));
     }
-    
+
     public void subtract(AlternateMoney other) {
         int tempDollars = calculateDollarsFromCentsAfterSubtraction(calculateTotalCentsForMoney(this), calculateTotalCentsForMoney(other));
         int tempCents = calculateCentsFromCentsAfterSubtraction(calculateTotalCentsForMoney(this), calculateTotalCentsForMoney(other));
         this.dollars = tempDollars;
         this.cents = tempCents;
     }
-    
+
     public static AlternateMoney subtract(AlternateMoney money1, AlternateMoney money2) {
         return new AlternateMoney(calculateDollarsFromCentsAfterSubtraction(calculateTotalCentsForMoney(money1), calculateTotalCentsForMoney(money2)),
                 calculateCentsFromCentsAfterSubtraction(calculateTotalCentsForMoney(money1), calculateTotalCentsForMoney(money2)));
@@ -76,5 +76,36 @@ public class AlternateMoney {
 
     private static int calculateCentsFromCentsAfterSubtraction(int totalCentsForMoney1, int totalCentsForMoney2) {
         return (totalCentsForMoney1 - totalCentsForMoney2) % 100;
-    }    
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 13 * hash + this.dollars;
+        hash = 13 * hash + this.cents;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final AlternateMoney other = (AlternateMoney) obj;
+        if (this.dollars != other.dollars) {
+            return false;
+        }
+        if (this.cents != other.cents) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "AlternateMoney{" + "dollars=" + dollars + ", cents=" + cents + '}';
+    }
 }

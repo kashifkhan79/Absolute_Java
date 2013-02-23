@@ -104,5 +104,19 @@ public class MoneyTest {
         
         assertEquals("Dollars after subtracting using object.subtract", 1, difference.getDollars());
         assertEquals("Cents after subtracting using object.subtract", 40, difference.getCents());
-    }    
+    }
+    
+    @Test
+    public void testEqualityAndHashcodeOfTwoMoneyValues(){
+        Money money1 = new Money(12, 30);
+        Money money2 = new Money(10, 40);
+        
+        Money sum = Money.add(money1, money2);
+        Money money3 = new Money(22, 70);
+        
+        assertTrue("sum is equal to money3", sum.equals(money3));
+        assertTrue("sum is not equal to money1", !sum.equals(money1));
+        assertTrue("sum is equal to sum", sum.equals(sum));
+        assertTrue("Sum hashcode is equal to money3 hashcode", sum.hashCode() == money3.hashCode());
+    }
 }

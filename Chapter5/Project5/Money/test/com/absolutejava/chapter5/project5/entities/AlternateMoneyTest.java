@@ -84,4 +84,18 @@ public class AlternateMoneyTest {
         assertEquals("Money1 dollars are changed", 1, money1.getDollars());
         assertEquals("Money1 cents are changed", 70, money1.getCents());
     }
+    
+    @Test
+    public void testEqualityAndHashcodeOfTwoAlternateMoneyValues(){
+        AlternateMoney money1 = new AlternateMoney(12, 30);
+        AlternateMoney money2 = new AlternateMoney(10, 40);
+        
+        AlternateMoney difference = AlternateMoney.subtract(money1, money2);
+        AlternateMoney money3 = new AlternateMoney(1, 90);
+        
+        assertTrue("Difference is equal to money3", difference.equals(money3));
+        assertTrue("Difference is not equal to money1", !difference.equals(money1));
+        assertTrue("Difference is equal to sum", difference.equals(difference));
+        assertTrue("Difference hashcode is equal to money3 hashcode", difference.hashCode() == money3.hashCode());
+    }
 }
