@@ -63,7 +63,6 @@ public class DiversScoreTest {
 
         index.expect(ArrayIndexOutOfBoundsException.class);
         index.expectMessage("Index should be between 0 and 7");
-
         diver.setIndividualScore(8, 8.9F);
 
         diver.setIndividualScore(1, 9.5F);

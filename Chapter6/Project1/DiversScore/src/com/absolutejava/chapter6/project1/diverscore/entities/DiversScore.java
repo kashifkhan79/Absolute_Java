@@ -25,7 +25,7 @@ public class DiversScore {
         this.scores = new float[INDEX_MAX];
     }
 
-    public void setScores(float[] scores) throws ArrayIndexOutOfBoundsException {
+    public void setScores(float[] scores) {
         if(isScoreLengthInvalid(scores)) {
             throw new ArrayIndexOutOfBoundsException("A Dive can only be scored by 7 judges");
         }
@@ -36,7 +36,7 @@ public class DiversScore {
         return Arrays.copyOfRange(scores, INDEX_MIN, INDEX_MAX);
     }
 
-    public void setIndividualScore(int index, float individualScore) throws ArrayIndexOutOfBoundsException, IllegalArgumentException {
+    public void setIndividualScore(int index, float individualScore) {
         if(isIndexInvalid(index)) {
             throw new ArrayIndexOutOfBoundsException("Index should be between 0 and 7");
         }
