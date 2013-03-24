@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="KHANS" name="com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest" tests="4" time="0.078" timestamp="2013-03-24T18:04:29">
+<testsuite errors="0" failures="0" hostname="KHANS" name="com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest" tests="4" time="0.069" timestamp="2013-03-24T21:56:20">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="nb.wait.for.caches" value="true" />
-    <property name="ant.file.Video_Game-impl" value="D:\Absolute_Java\Chapter8\Video Game\nbproject\build-impl.xml" />
+    <property name="ant.file.Video_Game-impl" value="D:\Absolute_Java\Chapter8\Project1\Video Game\nbproject\build-impl.xml" />
     <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans 7.3\platform\modules\ext\junit-4.10.jar" />
     <property name="libs.jsf20.maven-pom" value="" />
     <property name="libs.junit.javadoc" value="C:\Program Files\NetBeans 7.3\java\docs\junit-3.8.2-api.zip" />
     <property name="ant.core.lib" value="C:\Program Files\NetBeans 7.3\java\ant\lib\ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
-    <property name="user.dir" value="D:\Absolute_Java\Chapter8\Video Game" />
+    <property name="user.dir" value="D:\Absolute_Java\Chapter8\Project1\Video Game" />
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="java.vm.version" value="23.7-b01" />
     <property name="libs.jstl11.maven-pom" value="" />
@@ -54,7 +54,7 @@
     <property name="manifest.available+main.class" value="true" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Absolute_Java\Chapter8\Video Game\build\test\results\TEST-com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest.xml crashfile=D:\Absolute_Java\Chapter8\Video Game\build\junitvmwatcher2422270208445972041.properties propsfile=D:\Absolute_Java\Chapter8\Video Game\build\junit1474218628961774446.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Absolute_Java\Chapter8\Project1\Video Game\build\test\results\TEST-com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest.xml crashfile=D:\Absolute_Java\Chapter8\Project1\Video Game\build\junitvmwatcher1086582628051549579.properties propsfile=D:\Absolute_Java\Chapter8\Project1\Video Game\build\junit7102105059627132943.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="libs.Java-EE-GlassFish-v3.wsjwsdp" value="" />
@@ -106,7 +106,6 @@
     <property name="libs.junit.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\junit-3.8.2.jar" />
     <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 7.3\ide\docs\jaxb-api-doc.zip" />
     <property name="libs.struts.classpath" value="C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\commons-beanutils-1.8.0.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\commons-chain-1.2.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\standard-1.0.6.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\struts-core-1.3.10.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\struts-el-1.3.10.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\struts-extras-1.3.10.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\struts-faces-1.3.10.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.10.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\struts-scripting-1.3.10.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\struts-taglib-1.3.10.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\struts\struts-tiles-1.3.10.jar" />
-    <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
     <property name="ant.home" value="C:\Program Files\NetBeans 7.3\java\ant" />
     <property name="libs.junit_4.src" value="C:\Program Files\NetBeans 7.3\java\docs\junit-4.10-sources.jar" />
     <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 7.3\platform\modules\ext\testng-6.5.1-dist.jar" />
@@ -120,7 +119,7 @@
     <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="D:\Absolute_Java\Chapter8\Video Game" />
+    <property name="basedir" value="D:\Absolute_Java\Chapter8\Project1\Video Game" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="libs.jstl11.classpath" value="C:\Program Files\NetBeans 7.3\enterprise\modules\ext\standard.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jstl.jar" />
@@ -150,7 +149,7 @@
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="51.0" />
     <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="C:\Program Files\glassfish-3.1.2.2\javadb\lib\derby.jar;C:\Program Files\glassfish-3.1.2.2\javadb\lib\derbyclient.jar;C:\Program Files\glassfish-3.1.2.2\javadb\lib\derbynet.jar" />
-    <property name="ant.file.Video_Game" value="D:\Absolute_Java\Chapter8\Video Game\build.xml" />
+    <property name="ant.file.Video_Game" value="D:\Absolute_Java\Chapter8\Project1\Video Game\build.xml" />
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
     <property name="netbeans.system_http_proxy" value="DIRECT" />
     <property name="libs.eclipselink.javadoc" value="" />
@@ -164,7 +163,7 @@
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
     <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans 7.3\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
     <property name="libs.spring-framework300.src" value="" />
-    <property name="empty.dir" value="D:\Absolute_Java\Chapter8\Video Game\build\empty" />
+    <property name="empty.dir" value="D:\Absolute_Java\Chapter8\Project1\Video Game\build\empty" />
     <property name="version-output" value="java version &quot;1.7" />
     <property name="test.binarytestincludes" value="" />
     <property name="javadoc.preview" value="true" />
@@ -203,7 +202,7 @@
     <property name="javac.processorpath" value="" />
     <property name="libs.spring-webmvc.classpath" value="C:\Program Files\NetBeans 7.3\enterprise\modules\ext\spring\spring-webmvc-2.5.6.SEC03.jar" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="D:\Absolute_Java\Chapter8\Video Game\build.xml" />
+    <property name="ant.file" value="D:\Absolute_Java\Chapter8\Project1\Video Game\build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.jsf12.classpath" value="C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jsf-1_2\commons-logging.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -217,7 +216,7 @@
     <property name="javadoc.additionalparam" value="" />
     <property name="java.io.tmpdir" value="C:\Users\KASHIF~1\AppData\Local\Temp\" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="endorsed.classpath.cmd.line.arg" value="-Xbootclasspath/p:&apos;D:\Absolute_Java\Chapter8\Video Game\${endorsed.classpath}&apos;" />
+    <property name="endorsed.classpath.cmd.line.arg" value="-Xbootclasspath/p:&apos;D:\Absolute_Java\Chapter8\Project1\Video Game\${endorsed.classpath}&apos;" />
     <property name="junit.available" value="true" />
     <property name="libs.jsp-compiler.src" value="" />
     <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
@@ -274,7 +273,7 @@
     <property name="libs.testng.maven-pom" value="" />
     <property name="libs.jaxb.src" value="" />
     <property name="libs.Java-EE-GlassFish-v3.wsgenerate" value="" />
-    <property name="work.dir" value="D:\Absolute_Java\Chapter8\Video Game" />
+    <property name="work.dir" value="D:\Absolute_Java\Chapter8\Project1\Video Game" />
     <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
     <property name="do.depend" value="false" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
@@ -291,13 +290,13 @@
     <property name="nb.junit.batch" value="true" />
     <property name="junit.forkmode" value="perTest" />
     <property name="libs.spring-framework.maven-pom" value="" />
-    <property name="sun.boot.class.path" value="D:\Absolute_Java\Chapter8\Video Game\${endorsed.classpath};C:\Program Files\Java\jdk1.7.0_17\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_17\jre\classes" />
+    <property name="sun.boot.class.path" value="D:\Absolute_Java\Chapter8\Project1\Video Game\${endorsed.classpath};C:\Program Files\Java\jdk1.7.0_17\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_17\jre\classes" />
     <property name="javac.target" value="1.5" />
-    <property name="built-jar.properties" value="D:\Absolute_Java\Chapter8\Video Game\build\built-jar.properties" />
+    <property name="built-jar.properties" value="D:\Absolute_Java\Chapter8\Project1\Video Game\build\built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
-    <property name="annotation.processing.enabled" value="true" />
     <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="annotation.processing.enabled" value="true" />
     <property name="libs.jsf20.src" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="libs.jsf12.src" value="" />
@@ -315,13 +314,13 @@
     <property name="debug-transport-by-os" value="dt_shmem" />
     <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="libs.MySQLDriver.src" value="" />
-    <property name="build.test.results.dir" value="build/test/results" />
     <property name="java.runtime.version" value="1.7.0_17-b02" />
+    <property name="build.test.results.dir" value="build/test/results" />
     <property name="libs.ejb3-persistence.javadoc" value="" />
     <property name="manifest.available+main.class+mkdist.available" value="true" />
     <property name="default.javac.target" value="1.7" />
-    <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans 7.3\platform\modules\ext\junit-4.10.jar" />
     <property name="libs.Java-EE-GlassFish-v3.src" value="" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans 7.3\platform\modules\ext\junit-4.10.jar" />
     <property name="user.timezone" value="" />
     <property name="nb.junit.single" value="false" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
@@ -333,10 +332,10 @@
     <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\AbsoluteLayout.jar" />
     <property name="excludes" value="" />
     <property name="platforms.JDK_1.6.bootclasspath" value="C:\Program Files\Java\jdk1.6.0_43\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_43\jre\classes;C:\Program Files\Java\jdk1.6.0_43\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\ext\sunmscapi.jar" />
-    <property name="libs.restlib.maven-pom" value="" />
     <property name="libs.metro.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\metro\webservices-tools.jar" />
+    <property name="libs.restlib.maven-pom" value="" />
+    <property name="java.class.path" value="D:\Absolute_Java\Chapter8\Project1\Video Game\build\classes;C:\Program Files\NetBeans 7.3\platform\modules\ext\junit-4.10.jar;D:\Absolute_Java\Chapter8\Project1\Video Game\build\test\classes;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-junit4.jar" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="D:\Absolute_Java\Chapter8\Video Game\build\classes;C:\Program Files\NetBeans 7.3\platform\modules\ext\junit-4.10.jar;D:\Absolute_Java\Chapter8\Video Game\build\test\classes;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-junit4.jar" />
     <property name="do.mkdist" value="true" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\eclipselink\javax.persistence-2.0.3.jar" />
@@ -358,8 +357,8 @@
     <property name="ant.file.type.Video_Game" value="file" />
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-aop-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-asm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-aspects-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-beans-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-context-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-context-support-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-core-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-expression-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-instrument-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-jdbc-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-jms-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-orm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-oxm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-test-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-tx-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-web-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-webmvc-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-struts-3.1.1.RELEASE.jar" />
     <property name="libs.jsp-compiler.maven-pom" value="" />
-    <property name="libs.spring-webmvc.maven-pom" value="" />
     <property name="libs.Java-EE-GlassFish-v3.wsinterop" value="" />
+    <property name="libs.spring-webmvc.maven-pom" value="" />
     <property name="run.jvmargs" value="" />
     <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\ejb3-persistence.jar" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
@@ -370,7 +369,7 @@
     <property name="libs.jsf12.maven-pom" value="" />
     <property name="libs.junit.src" value="" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
-    <property name="main.class" value="com.absolutejava.chapter8.project1.videogame.entities.AlienLauncher" />
+    <property name="main.class" value="com.absolutejava.chapter8.project1.videogame.launcher.AlienLauncher" />
     <property name="build.dir" value="build" />
     <property name="libs.CopyLibs.src" value="" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans 7.3\java\ant\lib\ant.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\servlet3.0-jsp2.2-api.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\glassfish-jspparser-3.0.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jsf-2_1\javax.faces.jar;C:\Program Files\NetBeans 7.3\enterprise\modules\ext\jstl.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-launcher.jar" />
@@ -382,14 +381,10 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
   </properties>
-  <testcase classname="com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest" name="canCreateAlienPackObject" time="0.0" />
+  <testcase classname="com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest" name="canCreateAlienPackObject" time="0.002" />
   <testcase classname="com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest" name="canAddAlienToAlienPack" time="0.0" />
   <testcase classname="com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest" name="canAddMultipleAliensToAlienPack" time="0.0" />
-  <testcase classname="com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest" name="canCalculateDamageDoneByAlienPack" time="0.016">
-    <failure message="Damage done by Alien Pack is expected:&lt;0&gt; but was:&lt;27&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Damage done by Alien Pack is expected:&lt;0&gt; but was:&lt;27&gt;
-	at com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest.canCalculateDamageDoneByAlienPack(AlientPackTest.java:55)
-</failure>
-  </testcase>
+  <testcase classname="com.absolutejava.chapter8.project1.videogame.entities.AlientPackTest" name="canCalculateDamageDoneByAlienPack" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

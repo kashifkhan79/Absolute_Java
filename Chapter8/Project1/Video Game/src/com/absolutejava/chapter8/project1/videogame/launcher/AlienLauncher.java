@@ -3,7 +3,13 @@
  * and open the template in the editor.
  */
 
-package com.absolutejava.chapter8.project1.videogame.entities;
+package com.absolutejava.chapter8.project1.videogame.launcher;
+
+import com.absolutejava.chapter8.project1.videogame.entities.Alien;
+import com.absolutejava.chapter8.project1.videogame.entities.AlienPack;
+import com.absolutejava.chapter8.project1.videogame.entities.MarshmallowMan;
+import com.absolutejava.chapter8.project1.videogame.entities.Ogre;
+import com.absolutejava.chapter8.project1.videogame.entities.Snake;
 
 /**
  *
