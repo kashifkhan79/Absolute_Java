@@ -21,13 +21,11 @@ public class ContactsDatabaseDemo {
      */
     public static void main(String[] args) 
     {
-        int input;
-        do
+        while(true)
         {
-            ContactsDatabaseDemo.createMenuToGetInput();
-            input = ContactsDatabaseDemo.getUserInput();
-            processInput(input);
-        }while (input != 5);
+            createMenuToGetInput();
+            processInput(getUserInput());
+        }
     }
     
     private static void createMenuToGetInput()
@@ -94,6 +92,7 @@ public class ContactsDatabaseDemo {
         }
         catch(NullPointerException e)
         {
+            System.out.println("Contact couldn't be added");
             System.out.println(e.getStackTrace());
         }
         
@@ -108,6 +107,7 @@ public class ContactsDatabaseDemo {
             for(Contact c : contacts)
             {
                 System.out.println(c);
+                System.out.println("");
             }
         }
         else
@@ -142,7 +142,7 @@ public class ContactsDatabaseDemo {
         {
             System.out.print("Do you want to delete this contact (Y/N): ");
             String input = scanner.next();
-            if (input.equals("Y") || input.equals("y"))
+            if (validateContactDeletionInput(input))
             {
                 boolean deleted = database.deleteContact(contact);
                 if(deleted)
@@ -154,6 +154,10 @@ public class ContactsDatabaseDemo {
                     System.out.println("Error deleting contact");
                 }
             }
+            else
+            {
+                System.out.println("Invalid input. Try Step 4 again");
+            }
         }
         System.out.println("");
     }
@@ -163,4 +167,9 @@ public class ContactsDatabaseDemo {
         System.out.println("Exiting Program");
         System.exit(0);
     }    
+
+    private static boolean validateContactDeletionInput(String input) 
+    {
+        return input.equals("Y") || input.equals("y");
+    }
 }
